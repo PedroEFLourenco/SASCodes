@@ -1,0 +1,120 @@
+﻿<GetMetadataObjects>
+<Reposid>$METAREPOSITORY</Reposid>
+<Type>Job</Type>
+<Objects/>
+<NS>SAS</NS>
+<Flags>388</Flags>
+<Options>
+<Templates>
+
+<Job Id="" Name="" Desc="" MetadataCreated="" MetadataUpdated="">
+<JobActivities/>
+</Job>
+
+	<JobActivities>
+	<TransformationActivity/>
+	</JobActivities>
+
+		<TransformationActivity Name="">
+		<Steps/>
+		</TransformationActivity>
+
+			<Steps Name="" Id="">
+			<TransformationStep/>
+			</Steps>
+
+				<TransformationStep TransformRole="" Id="">
+				<Transformations/>
+				</TransformationStep>
+
+					<Transformations Name="" Id="">
+					<Select/>
+					<ClassifierMap/>
+					</Transformations>
+
+						<Select Name="" Id="">
+						<FeatureMaps/>
+						</Select>
+
+						<ClassifierMap Name="" Id="">
+						<FeatureMaps/>
+						</ClassifierMap>
+
+								<FeatureMaps Name="" Id="">
+								<FeatureMap/>
+								</FeatureMaps>
+	
+									<FeatureMap Name="" Id="" TransformRole="">
+									<FeatureSources/>
+									<FeatureTargets/>
+									<SourceCode/>
+									</FeatureMap>
+
+										<FeatureSources Name="" Id="">
+										<Column/>
+										</FeatureSources>
+								
+											<Column Name="" Id="" Desc="">
+											<Table/>
+											</Column>
+
+												<Table Id="">
+												<PhysicalTable/>
+												<WorkTable/>
+												</Table>
+
+													<PhysicalTable TableName="" Id="">
+													<TablePackage/>
+													</PhysicalTable>
+
+														<TablePackage Id="">
+														<SASLibrary/>
+														</TablePackage>
+
+														<SASLibrary Name="" Libref="" Id="">
+														</SASLibrary>
+
+													<WorkTable TableName="" Id="">
+													</WorkTable>
+
+										<FeatureTargets Name="" Id="">
+										<Column/>
+										</FeatureTargets>
+								
+											<Column Name="" Id="" Desc="">
+											<Table/>
+											</Column>
+
+												<Table Id="">
+												<PhysicalTable/>
+												<WorkTable/>
+												</Table>
+
+													<PhysicalTable TableName="" Id="">
+													<TablePackage/>
+													</PhysicalTable>
+
+														<TablePackage Id="">
+														<SASLibrary/>
+														</TablePackage>
+
+														<SASLibrary Name="" Libref="" Id="">
+														</SASLibrary>
+
+
+													<WorkTable TableName="" Id="">
+													</WorkTable>
+
+
+										<SourceCode Id="">
+										<TextStore/>
+										</SourceCode>
+
+											<TextStore Id="">
+											<StoredText/>
+											</TextStore>
+
+
+</Templates>
+</Options>
+</GetMetadataObjects>
